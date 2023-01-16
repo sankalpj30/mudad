@@ -33,11 +33,11 @@ fig = go.Figure(go.Indicator(
         'borderwidth': 2,
         'bordercolor': "gray",
         'steps': [
-            {'range': [0, 1], 'color': '#5ec214'},
-            {'range': [1, 2], 'color': '#bdd527'},
+            {'range': [0, 1], 'color': '#df0003'},
+            {'range': [1, 2], 'color': '#fe5502'},
             {'range': [2, 3], 'color': '#ffd507'},
-            {'range': [3, 4], 'color': '#fe5502'},
-            {'range': [4, 5], 'color': '#df0003'}],
+            {'range': [3, 4], 'color': '#bdd527'},
+            {'range': [4, 5], 'color': '#5ec214'}],
         'threshold': {
             'line': {'color': "white", 'width': 4},
             'thickness': 0.75,

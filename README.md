@@ -7,7 +7,7 @@
 pip install streamlit
 pip install pandas
 pip install tabula-py
-
+pip install plotly
 
 streamlit hello
 ```
